@@ -158,5 +158,5 @@ __interrupt void Timer_A (void)
 __interrupt void watchdog_timer(void)
 {                 // after timeout
   flag = 0;      
-  RX_Ready();
+  RX_Ready(); // entry action
 }
